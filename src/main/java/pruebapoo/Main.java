@@ -37,12 +37,6 @@ public class Main {
                     break;
                 case 3:
                     Boolean clienteAtendido = metodos.atenderCliente();
-                    if (clienteAtendido != null)
-                    {
-                        System.out.println("Cliente atendido");
-                    }else{
-                        System.out.println("No hay clientes por atender");
-                    }
                     break;
                 case 4:
                     System.out.println("saliendo del programa");
